@@ -19,9 +19,8 @@ def loop_message_n_times(message, number)
 end
 loop_message_n_times("Hello Moon!", 5)
 
-
+array = ["Be yourself;", "everyone else is already taken.", "- Oscar Wilde"]
 def output_array(array)
-    array = ["Be yourself", "everyone else is already taken.", "- Oscar Wilde"]
     count = 0 
     while count < array.length do
       puts array[count]
