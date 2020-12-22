@@ -12,7 +12,7 @@ loop_message_five_times("Hello World.")
 
 def loop_message_n_times(message, num = 5)
     counter = 0 
-    until counter = #{num}
+    until counter == #{num}
     puts message
     counter += 1
   end
