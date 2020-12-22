@@ -17,4 +17,4 @@ def loop_message_n_times(message, num = 5)
     counter += 1
   end
 end
-loop_message_n_times("Hello Moon", 5)
+loop_message_n_times("Hello Moon!", 5)
